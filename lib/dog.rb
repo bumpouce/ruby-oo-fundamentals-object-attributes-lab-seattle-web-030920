@@ -8,4 +8,13 @@ class Dog
     @name
   end 
   
+  
+  def breed
+    @breed
+  end 
+  
+  def breed=(update_breed="Mutt")
+    @breed = update_breed
+  end
+  
 end
